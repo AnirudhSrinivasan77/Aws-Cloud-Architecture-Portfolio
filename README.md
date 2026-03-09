@@ -1,2 +1,2 @@
 # Aws-Cloud-Architecture-Portfolio
-Cloud solution architecture diagrams and implementation notes for AWS projects.
+Cloud Solution Architecture diagrams and implementation notes for AWS projects.
