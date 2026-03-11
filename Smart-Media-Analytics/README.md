@@ -1,4 +1,4 @@
-Smart Media Analytics is a high-performance, event-driven web application that uses AWS Rekognition to automatically analyze images and provide object detection with confidence scores. Built with a "Serverless First" mindset.
+***Smart Media Analytics*** is a high-performance, event-driven web application that uses AWS Rekognition to automatically analyze images and provide object detection with confidence scores. Built with a "Serverless First" mindset.
 
 🏗️ Architecture Overview
 The system is designed for high scalability and security, utilizing a "Direct-to-S3" upload pattern to minimize server overhead and maximize performance.
@@ -18,25 +18,6 @@ The system is designed for high scalability and security, utilizing a "Direct-to
 6) Real-Time Gallery: The frontend fetches the analyzed results via a REST API to display the intelligent 4-column grid.
 
 
-🛠️ The Tech Stack
-Frontend: React.js, CSS3 (Custom 4-Column Grid), Vite
-Storage: Amazon S3 (Image Hosting)
-Database: Amazon DynamoDB (Metadata storage)
-Compute: AWS Lambda (Python 3.9)
-AI Service: AWS Rekognition (Computer Vision)
-API Layer: AWS API Gateway (REST)
 
-
-
-🚀 Key Features & Engineering Wins :-
-
-🔐 Security: Presigned URLs
-Instead of opening the S3 bucket to the public, I implemented Presigned POST URLs. This ensures that only authenticated users can upload files, and they can only do so within a 60-second window.
-
-⚡ Performance: Event-Driven Scaling
-By using S3 Triggers, the AI analysis only runs when a file is actually uploaded. There are no idle servers, making the architecture nearly 100% cost-efficient.
-
-💅 Frontend: Responsive 4-Column Grid
-The UI uses a custom-built CSS grid that handles dynamic image aspect ratios and displays AI-generated tags in a clean, modern interface.
 
 
