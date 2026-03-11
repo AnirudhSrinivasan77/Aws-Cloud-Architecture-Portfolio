@@ -1,10 +1,8 @@
-📸 Serverless AI Media Analytics Pipeline
-An event-driven, cloud-native application that automates image recognition and metadata indexing using a strictly serverless AWS architecture.
+📸***VisionAnalytics: Serverless AI Image Processor***
+VisionAnalytics is a high-performance, event-driven web application that uses AWS Rekognition to automatically analyze images and provide object detection with confidence scores. Built with a "Serverless First" mindset.
 
 🏗️ Architecture Overview
 The system is designed for high scalability and security, utilizing a "Direct-to-S3" upload pattern to minimize server overhead and maximize performance.
-
-
 
 🛰️ The Data Journey:-
 
