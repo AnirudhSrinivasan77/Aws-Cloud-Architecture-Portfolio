@@ -1,5 +1,4 @@
-📸***VisionAnalytics: Serverless AI Image Processor***
-VisionAnalytics is a high-performance, event-driven web application that uses AWS Rekognition to automatically analyze images and provide object detection with confidence scores. Built with a "Serverless First" mindset.
+Smart Media Analytics is a high-performance, event-driven web application that uses AWS Rekognition to automatically analyze images and provide object detection with confidence scores. Built with a "Serverless First" mindset.
 
 🏗️ Architecture Overview
 The system is designed for high scalability and security, utilizing a "Direct-to-S3" upload pattern to minimize server overhead and maximize performance.
